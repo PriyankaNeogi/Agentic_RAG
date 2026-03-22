@@ -1,0 +1,22 @@
+paths:
+  pdf_path: "data/Research_Paper.pdf"
+
+chunking:
+  chunk_size: 800
+  chunk_overlap: 100
+
+model:
+  provider: "openai"
+  embedding_model: "text-embedding-3-small"
+  temperature: 0
+
+retrieval:
+  top_k: 3
+
+pinecone:
+  index_name: "rag-index"
+  dimension: 1536
+  metric: "cosine"
+
+pipeline:
+  max_retries: 3
