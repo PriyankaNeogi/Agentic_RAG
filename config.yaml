@@ -1,0 +1,9 @@
+paths:
+  pdf_path: data/Research_Paper.pdf
+
+chunking:
+  chunk_size: 500
+  chunk_overlap: 100
+
+pinecone:
+  index_name: agentic-rag
